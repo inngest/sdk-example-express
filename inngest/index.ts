@@ -4,6 +4,7 @@ import { simpleFunction } from "./simpleFunction";
 import { parallelSteps } from "./parallelSteps";
 import { scheduledFunction } from "./scheduledFunction";
 import { scheduledFanOut, fanOutProcessor } from "./fanOut";
+import { dynamicWorkflow } from "./dynamicWorkflow";
 
 export const functions = [
   simpleFunction,
@@ -11,4 +12,5 @@ export const functions = [
   scheduledFunction,
   scheduledFanOut,
   fanOutProcessor,
+  dynamicWorkflow,
 ];
